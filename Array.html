@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array 객체</title>
+</head>
+<body>
+    각 배열 요소의 typeof 연산 결과를 보여주는 예제입니다.<br />
+    <script>
+        var arr = new Array(10, "문자열", false);
+        document.write(arr + "<br />")
+        document.write((typeof arr) + "<br />");//object
+        document.write((typeof arr[0]) + "<br />");//number
+        document.write((typeof arr[1]) + "<br />");//string
+        document.write((typeof arr[2]));
+    </script>
+</body>
+</html>
